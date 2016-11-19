@@ -1,0 +1,21 @@
+
+version = '1.0'
+gradle.projectsEvaluated {
+	tasks.withType(JavaCompile) {
+		options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+	}
+}
+
+
+apply plugin: 'java'
+apply from: './maven-push.gradle'
+dependencies {
+	compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+	compile group: 'com.github.jeppeter', name: 'reext', version: '1.0'
+    testCompile 'junit:junit:4.11'
+}
+
+repositories {
+    mavenCentral()
+}
+
