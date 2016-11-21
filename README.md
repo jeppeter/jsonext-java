@@ -18,7 +18,7 @@ Gradle configuration
 ## parse string for json
 
 ```java
-import com.github.com.JsonExt;
+import com.github.com.jsonext.JsonExt;
 
 public class JsonExtTest {
     public static void main(String[] args){
@@ -39,7 +39,7 @@ jack
 
 ## get more deep
 ```java
-import com.github.com.JsonExt;
+import com.github.com.jsonext.JsonExt;
 
 public class JsonExtTest {
     public static void main(String[] args){
@@ -61,7 +61,7 @@ jack
 
 ## get long or object
 ```java
-import com.github.com.JsonExt;
+import com.github.com.jsonext.JsonExt;
 
 public class JsonExtTest {
     public static void main(String[] args){
@@ -85,7 +85,7 @@ name jack age 13
 
 ## get keys of one simple
 ```java
-import com.github.com.JsonExt;
+import com.github.com.jsonext.JsonExt;
 
 public class JsonExtTest {
     public static void main(String[] args){
